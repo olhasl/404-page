@@ -2,49 +2,47 @@ body {
     background-image:url(https://zerogravitymarketing.com/wp-content/uploads/2022/08/ZGM-Blog-2022-%E2%80%93-1500-x-785-ALL-GRAPHICS-955x500.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .box {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 #mess1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
     color: rgb(78, 76, 76);
     text-align: center;
+    padding-right: 20px;
 }
 #mess2 {
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
     color: rgb(78, 76, 76);
     text-align: center;
+    padding-right: 20px;
 }
 .message {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 .button {
     background-color: rgb(95, 91, 91);
-    height: 100px;
-    width: 300px;
+    height: 60px;
+    width: 250px;
     border: 5px solid rgb(241, 146, 4);
     border-radius: 10px;
 }
 .but {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    padding-left: 200px;
+    padding-top: 220px;
 }
 a:link {
     text-decoration: none;
     color: rgb(200, 200, 8);
     font-weight: bold;
-    font-size: 60px;
+    font-size: 30px;
 }
 a:visited {
     text-decoration: none;
