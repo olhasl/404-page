@@ -1,8 +1,67 @@
+@media screen and (max-width:767px) {
+    body {
+        background-image:url(https://t4.ftcdn.net/jpg/03/59/34/73/360_F_359347351_HjbOMbU9oPoYdiJaTu0iBKrJ5ayrZlcg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #mess1 {
+        font-size: 50px;
+        font-weight: 600;
+        color: rgb(78, 76, 76);
+        text-align: center;
+        padding-right: 10px;
+    }
+    #mess2 {
+        font-size: 35px;
+        font-weight: 600;
+        color: rgb(78, 76, 76);
+        text-align: center;
+        padding-right: 10px;
+    }
+    .message {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .button {
+        background-color: rgb(95, 91, 91);
+        height: 40px;
+        width: 150px;
+        border: 5px solid rgb(241, 146, 4);
+        border-radius: 10px;
+    }
+    .but {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: center;
+        padding-top: 100px;
+    }
+    a:link {
+        text-decoration: none;
+        color: rgb(200, 200, 8);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    a:visited {
+        text-decoration: none;
+        color: rgb(200, 200, 8);
+        font-weight: bold;
+    }
+    .anime {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) {
 body {
     background-image:url(https://zerogravitymarketing.com/wp-content/uploads/2022/08/ZGM-Blog-2022-%E2%80%93-1500-x-785-ALL-GRAPHICS-955x500.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 .box {
     display: grid;
@@ -36,7 +95,8 @@ body {
 .but {
     grid-column-start: 2;
     grid-column-end: 3;
-    padding-top: 220px;
+    padding-top: 10px;
+    text-align: center;
 }
 a:link {
     text-decoration: none;
@@ -54,4 +114,5 @@ a:visited {
     grid-column-end: 2;
     padding-top: 50px;
     padding-left: 50px;
+}
 }
